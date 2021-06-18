@@ -28,7 +28,8 @@ OR
 
 Build the docker image by running the Dockerfile in root directory by running following commands: 
 
-    1. docker build .
+    1. ./gradlew clean build bootJar
+    2. docker build .
     2. docker run -d -p 8080:8080 <image name>
 
 
