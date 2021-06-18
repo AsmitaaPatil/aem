@@ -10,12 +10,13 @@ A webservice that takes in a number and outputs a Roman numeral.
    - JUnit
 
 ### Folder structure
-- [AemApplication](src/main/java/AemApplication): Entry point of the application where the 'main' fuction lies.
-- [AemController](src/main/java/controller/AemController): API requests are mapped and routed to appropriate implementations and served back to the client with a response.
-- [AemService](src/main/java/business/AemService): All the computations and business logic to serve the request.
-- [AemAdvice](src/main/java/handler/AemAdvice): All exceptions in the codebase are handled here.
-- [model](src/main/java/model): POJOs for success and error response.
-- [utils](src/main/java/utils): Utility methods and variables for the codebase.
+
+- [AemApplication](src/main/java/com/adobe/aem/AemApplication.java): Entry point of the application where the 'main' fuction lies.
+- [AemController](src/main/java/com/adobe/aem/controller/AemController.java): API requests are mapped and routed to appropriate implementations and served back to the client with a response.
+- [AemService](src/main/java/com/adobe/aem/business/AemService.java): All the computations and business logic to serve the request.
+- [AemAdvice](src/main/java/com/adobe/aem/handler/AemAdvice.java): All exceptions in the codebase are handled here.
+- [model](src/main/java/com/adobe/aem/model): POJOs for success and error response.
+- [utils](src/main/java/com/adobe/aem/utils): Utility methods and variables for the codebase.
 
 
 ### How to run
